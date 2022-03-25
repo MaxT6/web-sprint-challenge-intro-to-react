@@ -5,7 +5,7 @@ import React from 'react';
 const Character = props => {
     return (
         <div>
-            {props}
+            {props.character.name}
         </div>
     )
 }
